@@ -19,7 +19,7 @@ const Listing = ({ items = [] }) => {
           <div key={listing_id} className="item">
             <div className="item-image">
               <a href={url}>
-                <img src={MainImage?.url_570xN} alt={currentTitle} />
+                <img src={MainImage.url_570xN} alt={currentTitle} />
               </a>
             </div>
             <div className="item-details">
